@@ -43,8 +43,8 @@ VALUES
     ('PROD_001', 'Sac à main bandoulière', 'Sacs', 'Cuir', 350.00, DATEADD(minute, -1, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
     ('PROD_002', 'Portefeuille compagnon', 'Portefeuilles', 'Cuir', 120.00, DATEADD(minute, -3, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
     ('PROD_003', 'Ceinture réversible', 'Ceintures', 'Cuir', 85.50, DATEADD(minute, -2, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
-    ('PROD_004', 'Sac à dos urbain', 'Sacs', 'Cuir', 480.00, DATEADD(minute, -4, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
-    ('PROD_005', 'Porte-cartes minimaliste', 'Portefeuilles', 'Cuir', 60.00, DATEADD(minute, -5, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
+    ('PROD_004', 'Sac à dos urbain', 'Sacs', 'Toile', 480.00, DATEADD(minute, -4, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
+    ('PROD_005', 'Porte-cartes minimaliste', 'Portefeuilles', 'Toile', 60.00, DATEADD(minute, -5, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
     ('PROD_006', 'Trousse de toilette en cuir', 'Accessoires', 'Cuir', 180.00, DATEADD(minute, -6, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ),
     ('PROD_007', 'Étui à passeport en cuir', 'Accessoires', 'Cuir', 95.00, DATEADD(minute, -7, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP()))::TIMESTAMP_NTZ, CONVERT_TIMEZONE('Europe/Paris', CURRENT_TIMESTAMP())::TIMESTAMP_NTZ);
 
