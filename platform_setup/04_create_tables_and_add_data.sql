@@ -52,10 +52,10 @@ VALUES
 
 --- 3. TRANSACTIONS TABLE CREATION & COLUMN COMMENTS ---
 CREATE OR REPLACE TABLE CCLAVE_PRD.RAW.TRANSACTIONS (
-    TRANSACTION_ID VARCHAR COMMENT 'Identifiant unique de chaque transaction (UUID).',
-    CUSTOMER_ID VARCHAR COMMENT 'Identifiant unique du client impliqué (Clé Étrangère vers CUSTOMERS).',
-    PRODUCT_ID VARCHAR COMMENT 'Identifiant unique du produit acheté (Clé Étrangère vers PRODUCTS).',
-    QUANTITY NUMBER(10, 0) COMMENT 'Nombre d''unités du produit dans la transaction.',
+    TRANSACTION_ID VARCHAR(36) COMMENT 'Identifiant unique de chaque transaction (UUID).',
+    CUSTOMER_ID VARCHAR(36) COMMENT 'Identifiant unique du client impliqué (Clé Étrangère vers CUSTOMERS).',
+    PRODUCT_ID VARCHAR(36) COMMENT 'Identifiant unique du produit acheté (Clé Étrangère vers PRODUCTS).',
+    QUANTITY NUMBER(10) COMMENT 'Nombre d''unités du produit dans la transaction.',
     TRANSACTION_DATETIME TIMESTAMP_TZ COMMENT 'Horodatage de l''occurrence de la transaction, incluant le fuseau horaire.',
     LOAD_TIMESTAMP TIMESTAMP_TZ COMMENT 'Horodatage du chargement de cet enregistrement dans la table.'
 );
